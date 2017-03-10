@@ -21,6 +21,7 @@ public class RPS {
 		System.out.println("\nSelect a number: ");
 		user = input.nextInt(); // user inputs a number
 		
+		//Converts the numbers to Rock, Paper, Scissors on the display
 		if (user == rock) {
 			System.out.print("Your choice is Rock");
 		} else if (user == scissor) {
@@ -28,7 +29,7 @@ public class RPS {
 		} else if (user == paper){
 			System.out.print("You chose Paper\n");
 		} else  {
-			System.out.print("GoodBye\n");
+			System.out.print("GoodBye\n"); //If user decides to be smart and a greater number, keeps from crashing the project
 		}
 		
 		
@@ -43,7 +44,7 @@ public class RPS {
 			System.out.println("Computer chose paper");
 		}
 		
-		
+		//Explaining each rule to the program. In this instance explaining Rock.
 		if (Number == rock) {
 			if (user == rock) {
 				System.out.println("Tie");
@@ -54,6 +55,7 @@ public class RPS {
 			}			
 		}
 		
+		//Explaining Scissor
 		if (Number == scissor) {
 			if (user == scissor) {
 				System.out.print("Tie");
@@ -64,6 +66,7 @@ public class RPS {
 			} 
 		}
 		
+		//Explaining Paper
 		if (Number == paper) {
 			if (user == paper) {
 				System.out.print("Tie");
