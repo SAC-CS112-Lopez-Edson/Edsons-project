@@ -24,6 +24,8 @@ public class Dice {
             boolean play = true;
             String again;
             
+	    // It is better to use 6 int variables for these purposes
+	    // The array is much better suited for saving the history of the game (all users input, all system numbers...)
             int[] total;
             
             total = new int[6];
