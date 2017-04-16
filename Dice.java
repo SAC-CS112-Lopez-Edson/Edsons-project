@@ -84,8 +84,8 @@ public class Dice {
                                 System.out.print("\nYou Lose!");
                                 gamesLost++;
                             }
-                
-                    if (play == true) 
+                    // why do you think you need this if statement?
+                    if (play == true)
                         {                  
                             System.out.print("\nPlay again? ");
                             again = input.next();
@@ -107,6 +107,7 @@ public class Dice {
                                         System.out.printf("Your win rate is: " + total[5]);
                                         System.out.printf(" percent");
                                         System.out.print("\nThanks for playing");
+				    // What would be an alternative to System.exit ?   Can you use the Play variable?
                                         System.exit(0);
                                     }
  
